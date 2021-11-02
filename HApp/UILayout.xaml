@@ -1,0 +1,74 @@
+﻿<hoshi:HContainer x:Class="CoffeeRoaster.UILayout"
+             xmlns:hoshi="clr-namespace:hoshi_lib.View;assembly=Hoshi_lib"
+             xmlns:bgs="clr-namespace:BGS"
+             xmlns:coffee="clr-namespace:CoffeeRoaster"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Width="1140" Height="645.5">
+    <hoshi:HContainer Height="392" Width="564" Margin="413,5,0,0">
+        <hoshi:HContainer.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/BG_L1.jpg" Stretch="Uniform"/>
+        </hoshi:HContainer.Background>
+    </hoshi:HContainer>
+    <hoshi:HContainer Height="392" Width="427" Margin="11,6,0,0">
+        <hoshi:HContainer.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/BG_R1.jpg" Stretch="Uniform"/>
+        </hoshi:HContainer.Background>
+    </hoshi:HContainer>
+    <coffee:TokenSpaceView x:Name="VLA1" Height="64" Width="64" Margin="527,19,0,0">
+    </coffee:TokenSpaceView>
+    <coffee:TokenSpaceView x:Name="VLA2" Height="64" Width="64" Margin="605,19,0,0"/>
+    <coffee:TokenSpaceView x:Name="VLB" Height="64" Width="64" Margin="528,97,0,0"/>
+    <coffee:TokenSpaceView x:Name="VLC" Height="64" Width="64" Margin="605,173,0,0"/>
+    <coffee:TokenSpaceView x:Name="VLD" Height="64" Width="64" Margin="528,250,0,0"/>
+    <coffee:TokenSpaceView x:Name="VLE" Height="64" Width="64" Margin="605,327,0,0"/>
+    <coffee:TokenSpaceView x:Name="VR_S1" Height="64" Width="64" Margin="716,19,0,0"/>
+    <coffee:TokenSpaceView x:Name="VR_S2" Height="64" Width="64" Margin="716,97,0,0"/>
+    <coffee:TokenSpaceView x:Name="VR_S3" Height="64" Width="64" Margin="716,173,0,0"/>
+    <coffee:TokenSpaceView x:Name="VR_S4" Height="64" Width="64" Margin="716,250,0,0"/>
+    <coffee:TokenSpaceView x:Name="VR_S5" Height="64" Width="64" Margin="716,327,0,0"/>
+
+    <coffee:TokenSpaceView x:Name="VRA1" Height="64" Width="64" Margin="801,19,0,0"/>
+    <coffee:TokenSpaceView x:Name="VRA2" Height="64" Width="64" Margin="873,19,0,0"/>
+    <coffee:TokenSpaceView x:Name="VRB1" Height="64" Width="64" Margin="800,97,0,0"/>
+    <coffee:TokenSpaceView x:Name="VRB2" Height="64" Width="64" Margin="872,97,0,0"/>
+    <coffee:TokenSpaceView x:Name="VRC1" Height="64" Width="64" Margin="801,175,0,0"/>
+    <coffee:TokenSpaceView x:Name="VRC2" Height="64" Width="64" Margin="873,172,0,0"/>
+    <coffee:TokenSpaceView x:Name="VRD1" Height="64" Width="64" Margin="801,250,0,0"/>
+    <coffee:TokenSpaceView x:Name="VRD2" Height="64" Width="64" Margin="873,250,0,0"/>
+    <coffee:TokenSpaceView x:Name="VRE1" Height="64" Width="64" Margin="801,327,0,0"/>
+    <coffee:TokenSpaceView x:Name="VRE2" Height="64" Width="64" Margin="873,327,0,0"/>
+
+    <coffee:TokenSpaceView x:Name="VCup_S3" Height="64" Width="64" Margin="206,184,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup_S4" Height="64" Width="64" Margin="206,333,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup_S5" Height="62" Width="64" Margin="342,218,0,0"/>
+
+    <coffee:TokenSpaceView x:Name="VCup1" Height="64" Width="64" Margin="30,110,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup2" Height="64" Width="64" Margin="109,110,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup3" Height="64" Width="64" Margin="185,110,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup4" Height="64" Width="64" Margin="46,187,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup5" Height="64" Width="64" Margin="126,187,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup6" Height="64" Width="64" Margin="29,258,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup7" Height="64" Width="64" Margin="109,258,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup8" Height="64" Width="64" Margin="185,258,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup9" Height="64" Width="64" Margin="45,329,0,0"/>
+    <coffee:TokenSpaceView x:Name="VCup10" Height="64" Width="64" Margin="124,329,0,0"/>
+
+    <coffee:TokenSpaceView x:Name="VFilter1" Height="64" Width="64" Margin="338,42,0,0"/>
+    <coffee:TokenSpaceView x:Name="VFilter2" Height="64" Width="64" Margin="351,112,0,0"/>
+    <coffee:TokenSpaceView x:Name="VFilter3" Height="64" Width="64" Margin="279,126,0,0"/>
+    <coffee:TokenSpaceView x:Name="VFilter4" Height="64" Width="64" Margin="279,274,0,0"/>
+    <coffee:TokenSpaceView x:Name="VFilter5" Height="64" Width="64" Margin="352,294,0,0"/>
+
+    <coffee:TackTokensView x:Name="VTacks" Margin="11,403,0,0" Background="#FFFFFFDA" />
+    <coffee:TackTempTokensView x:Name="VTacksTemp" Margin="447,403,0,0" Background="#FFFFF8B9" BorderBrush="#FFB49C2F" BorderWidth="3">
+
+    </coffee:TackTempTokensView>
+    <bgs:BGActionButtonsView Panel.ZIndex="1" Margin="447,567,0,0" Width="397" Height="64"></bgs:BGActionButtonsView>
+    <coffee:CoffeeCardView x:Name="CoffeeView" Margin="680,408,0,0"></coffee:CoffeeCardView>
+    <hoshi:HControl x:Name="RoundTimeView" Margin="982,37,0,0" Width="148" Background="{x:Null}" FontSize="18" FontWeight="Bold" FontFamily="Adobe Gothic Std B" FontColor="#FF3E2D0A" Height="32"></hoshi:HControl>
+    <hoshi:HControl x:Name="CurrentConcentrationView" Margin="982,74,0,0" Width="148" Background="{x:Null}" FontSize="18" FontFamily="Adobe Gothic Std B" FontWeight="Bold" FontColor="#FF3E2D0A" Height="32"></hoshi:HControl>
+
+</hoshi:HContainer>

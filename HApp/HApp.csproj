@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F05ED326-CCA8-45E5-A4DF-37F8E5A396AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoffeeRoaster</RootNamespace>
+    <AssemblyName>CoffeeRoaster</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+    <PublishUrl>發行\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Hoshi_lib">
+      <HintPath>..\..\星月區\@程式庫\公用程式庫\Hoshi_lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="sys\CCenter.cs" />
+    <Compile Include="sys\ImmediateEffect.cs" />
+    <Compile Include="sys\RoastToken.cs" />
+    <Compile Include="sys\CProcees.cs" />
+    <Compile Include="sys\SquareEffect.cs" />
+    <Compile Include="sys\SquareToken.cs" />
+    <Compile Include="sys\View\TackTempTokensView.cs" />
+    <Compile Include="sys\View\TackTokensView.cs" />
+    <Compile Include="sys\TokenSpace.cs" />
+    <Compile Include="sys\CoffeeCard.cs" />
+    <Page Include="CoffeeCardView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UILayout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BGSys\BGMessageView.cs" />
+    <Compile Include="BGSys\BGO\BGO.cs" />
+    <Compile Include="BGSys\BGO\BGOContainer.cs" />
+    <Compile Include="BGSys\BGO\BGOList.cs" />
+    <Compile Include="BGSys\BGO\Deck.cs" />
+    <Compile Include="BGSys\BGSException.cs" />
+    <Compile Include="BGSys\BGSys.cs" />
+    <Compile Include="BGSys\BGView\BGActionButtonsView.cs" />
+    <Compile Include="BGSys\BGView\BGCollectionView.cs" />
+    <Compile Include="BGSys\BGView\BGListView.cs" />
+    <Compile Include="BGSys\BGView\BGView.cs" />
+    <Compile Include="BGSys\Event.cs" />
+    <Compile Include="BGSys\Player.cs" />
+    <Compile Include="BGSys\Process\ActionBranch.cs" />
+    <Compile Include="BGSys\Process\ButtonAction.cs" />
+    <Compile Include="BGSys\Process\FlowBranch.cs" />
+    <Compile Include="BGSys\Process\Group.cs" />
+    <Compile Include="BGSys\Process\MultiChoiceAction.cs" />
+    <Compile Include="BGSys\Process\PalyerAction.cs" />
+    <Compile Include="BGSys\Process\Program.cs" />
+    <Compile Include="HException.cs" />
+    <Compile Include="sys\View\TokenSpaceView.cs" />
+    <Compile Include="CoffeeCardView.xaml.cs">
+      <DependentUpon>CoffeeCardView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UILayout.xaml.cs">
+      <DependentUpon>UILayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG_R.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG_L.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\BG_L1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\BG_R1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Acidity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Aroma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Back2Draw3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Charred.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\DefectBean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Fumes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Moisture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Priority.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Sieve Plate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Sweetness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Three in One.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Three.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

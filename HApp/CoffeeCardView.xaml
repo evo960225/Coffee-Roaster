@@ -1,0 +1,75 @@
+﻿<hoshi:HContainer
+             xmlns:hoshi="clr-namespace:hoshi_lib.View;assembly=Hoshi_lib"
+             xmlns:hoshilib="clr-namespace:hoshi_lib;assembly=Hoshi_lib"
+             xmlns:bgs="clr-namespace:BGS"
+             xmlns:coffee="clr-namespace:CoffeeRoaster"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:hoshi_lib="clr-namespace:hoshi_lib;assembly=Hoshi_lib" x:Class="CoffeeRoaster.CoffeeCardView" 
+             mc:Ignorable="d" Width="444.388" Height="171.799" Background="#FFEED255">
+
+    <Border BorderThickness="0" HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="268" Background="#FFEAF799" Margin="164,9,0,0"/>
+    <hoshi:HControl Margin="167,12,0,0" Height="32" Width="32">
+        <hoshi:HControl.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Image/0.png"/>
+        </hoshi:HControl.Background>
+    </hoshi:HControl>
+    <hoshi:HControl Margin="204,12,0,0" Height="32" Width="32">
+        <hoshi:HControl.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Image/Hard.png"/>
+        </hoshi:HControl.Background>
+    </hoshi:HControl>
+    <hoshi:HControl Margin="242,12,0,0" Height="32" Width="32">
+        <hoshi:HControl.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Image/Moisture.png"/>
+        </hoshi:HControl.Background>
+    </hoshi:HControl>
+    <hoshi:HControl Margin="279,12,0,0" Height="32" Width="32">
+        <hoshi:HControl.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Image/DefectBean.png"/>
+        </hoshi:HControl.Background>
+    </hoshi:HControl>
+    <hoshi:HControl Margin="316,12,0,0" Height="32" Width="32">
+        <hoshi:HControl.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Image/Body.png"/>
+        </hoshi:HControl.Background>
+    </hoshi:HControl>
+    <hoshi:HControl Margin="353,12,0,0" Height="32" Width="32">
+        <hoshi:HControl.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Image/Acidity.png"/>
+        </hoshi:HControl.Background>
+    </hoshi:HControl>
+    <hoshi:HControl Margin="390,12,0,0" Height="32" Width="32">
+        <hoshi:HControl.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Image/Aroma.png"/>
+        </hoshi:HControl.Background>
+    </hoshi:HControl>
+    <hoshi:HControl x:Name="VContent1" Margin="167,49,0,0" Height="29" Width="32" Background="{x:Null}" Font="Adobe Gothic Std B" FontSize="18" FontColor="#FF361E0D"></hoshi:HControl>
+    <hoshi:HControl x:Name="VContent2" Margin="205,49,0,0" Height="29" Width="32" Background="{x:Null}" Font="Adobe Gothic Std B" FontSize="18" FontColor="#FF361E0D" RenderTransformOrigin="0.469,0.483"></hoshi:HControl>
+    <hoshi:HControl x:Name="VContent3" Margin="242,49,0,0" Height="29" Width="32" Background="{x:Null}" Font="Adobe Gothic Std B" FontSize="18" FontColor="#FF361E0D"></hoshi:HControl>
+    <hoshi:HControl x:Name="VContent4" Margin="279,49,0,0" Height="29" Width="32" Background="{x:Null}" Font="Adobe Gothic Std B" FontSize="18" FontColor="#FF361E0D"></hoshi:HControl>
+    <hoshi:HControl x:Name="VContent5" Margin="316,49,0,0" Height="29" Width="32" Background="{x:Null}" Font="Adobe Gothic Std B" FontSize="18" FontColor="#FF361E0D"></hoshi:HControl>
+    <hoshi:HControl x:Name="VContent6" Margin="353,49,0,0" Height="29" Width="32" Background="{x:Null}" Font="Adobe Gothic Std B" FontSize="18" FontColor="#FF361E0D"></hoshi:HControl>
+    <hoshi:HControl x:Name="VContent7" Margin="390,49,0,0" Height="29" Width="32" Background="{x:Null}" Font="Adobe Gothic Std B" FontSize="18" FontColor="#FF361E0D"></hoshi:HControl>
+    <hoshi:MatrixControl x:Name="ScoreView" Margin="7,97,0,0" SpanX="2" SpanY="0">
+        <hoshi:MatrixControl.MatrixSize>
+            <hoshilib:MatrixSize Height="2" Width="8"></hoshilib:MatrixSize>
+        </hoshi:MatrixControl.MatrixSize>
+        <hoshi:MatrixControl.ElementsSize>
+            <hoshilib:Size Height="32" Width="34"></hoshilib:Size>
+        </hoshi:MatrixControl.ElementsSize>
+    </hoshi:MatrixControl>
+    <hoshi:MatrixControl x:Name="FlavorsView" Margin="300,125,0,0" SpanX="2" SpanY="2">
+        <hoshi:MatrixControl.MatrixSize>
+            <hoshi_lib:MatrixSize Height="1" Width="4"/>
+        </hoshi:MatrixControl.MatrixSize>
+        <hoshi:MatrixControl.ElementsSize>
+            <hoshi_lib:Size Height="32" Width="32"/>
+        </hoshi:MatrixControl.ElementsSize>
+    </hoshi:MatrixControl>
+    <Label  HorizontalAlignment="Left" Margin="327,92,0,0" VerticalAlignment="Top" Content="Goal Flavor" Width="87" FontSize="14" FontFamily="Adobe Gothic Std B" Background="{x:Null}" Foreground="#FF463815"/>
+    <TextBlock x:Name="CoffeeNameView" HorizontalAlignment="Left" Margin="12,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="69" Width="149" FontSize="14" FontFamily="Adobe Gothic Std B" Foreground="#FF3E2D0A"/>
+
+</hoshi:HContainer>

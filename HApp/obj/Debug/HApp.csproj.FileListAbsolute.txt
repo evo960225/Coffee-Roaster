@@ -1,0 +1,41 @@
+C:\Users\asus1\Desktop\HApp\HApp\bin\Debug\HApp.exe.config
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\HApp.csprojResolveAssemblyReference.cache
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\HUserControl.baml
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\MainWindow.baml
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\HUserControl.g.cs
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\MainWindow.g.cs
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\App.g.cs
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\HApp_MarkupCompile.cache
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\HApp.g.resources
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\HApp.Properties.Resources.resources
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\HApp.csproj.GenerateResource.Cache
+C:\Users\asus1\Desktop\HApp\HApp\bin\Debug\HApp.exe
+C:\Users\asus1\Desktop\HApp\HApp\bin\Debug\HApp.pdb
+C:\Users\asus1\Desktop\HApp\HApp\bin\Debug\Hoshi_lib.dll
+C:\Users\asus1\Desktop\HApp\HApp\bin\Debug\Hoshi_lib.pdb
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\HApp.exe
+C:\Users\asus1\Desktop\HApp\HApp\obj\Debug\HApp.pdb
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\bin\Debug\CoffeeRoaster.exe.config
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\HApp.csprojResolveAssemblyReference.cache
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\UILayout.baml
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\MainWindow.baml
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\UILayout.g.cs
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\MainWindow.g.cs
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\App.g.cs
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\CoffeeRoaster_MarkupCompile.cache
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\CoffeeRoaster.g.resources
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\CoffeeRoaster.Properties.Resources.resources
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\HApp.csproj.GenerateResource.Cache
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\CoffeeRoaster_MarkupCompile.lref
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\bin\Debug\CoffeeRoaster.exe
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\bin\Debug\CoffeeRoaster.pdb
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\bin\Debug\Hoshi_lib.dll
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\bin\Debug\Hoshi_lib.pdb
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\CoffeeRoaster.exe
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\CoffeeRoaster.pdb
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\bin\Debug\Resources\BG_R.jpg
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\bin\Debug\Resources\BG_L.jpg
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\CoffeeCardView.g.cs
+C:\Users\asus1\Desktop\Coffee Roaster\HApp\obj\Debug\CoffeeCardView.baml
